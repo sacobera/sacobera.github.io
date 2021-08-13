@@ -15,7 +15,7 @@ body{
     background-position: center;
     background-size: cover;
     position: absolute;
-    background-image: url(images/sunset.png);
+    background-image: url(images/leaf.jpg);
 
 }
 
@@ -80,7 +80,7 @@ nav{
 }
 .introduction {
     width: 70%;
-    color: white;
+    color: #FDFEFF;
     position:absolute;
     top: 10%;
     left: 17%;
@@ -91,8 +91,9 @@ nav{
 }
 
 .introduction h1{
-    font-size: 50px;
+    font-size: 70px;
     margin: 10px 0 40px;
+    text-shadow: 3px 3px black;
 }
 
 #intro-btn {
@@ -130,8 +131,8 @@ nav{
 
 .sarah-img{
     position: absolute;
-    top: 64%;
-    left: 18%;
+    top: 58%;
+    left: 10%;
 }
 
 .aboutme{
@@ -144,13 +145,14 @@ nav{
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+
     
 }
 
 #h1aboutme{
     font-family: Playfair;
     font-size: 60px;
-    color: #E27F54;
+    color: #048256;
     text-align: center;
     padding-bottom: 30px;
 }
@@ -167,10 +169,11 @@ nav{
 
 #skills{
     font-family: Playfair;
-    font-size: 60px;
+    font-size: 90px;
     color:white;
     text-align: center;
-    padding-top: 10%
+    padding-top: 10%;
+    text-shadow: 2px 2px black;
 
 }
 
@@ -180,7 +183,7 @@ nav{
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url(images/pexels-free-nature-stock-8993.jpg);
+    background-image: url(images/pink.jpg);
 }
 .logo {
     top: 5px;
@@ -200,13 +203,14 @@ nav{
 .html-img{
     max-width: 400px;
 }
+
 /* projects */
 
 
 .project{
     font-family: Playfair;
     font-size: 60px;
-    color: #E27F54;
+    color: #048256;
     text-align: center;
 }
 
@@ -234,6 +238,7 @@ nav{
     box-sizing: border-box;
     transition: .25s;
     color: #4C4243;
+    word-spacing: 5px;
 }
 
 #project-row:hover{
@@ -241,17 +246,19 @@ nav{
 }
 
 #homepage{
-    max-width: 600px;
+    max-width: 500px;
     max-height: 400px;
+    padding-left: 50px;
 }
 
 #fastado{
-    max-width: 600px;
-    max-height: 400px; 
+    max-width: 500px;
+    max-height: 500px; 
+    padding-left: 90px;
 }
 #interactive{
-    max-width: 1000px;
-    max-height: 400px; 
+    max-width: 500px;
+    max-height: 500px; 
     padding-left: 50px;
 }
 
@@ -276,7 +283,7 @@ nav{
 #contact-id{
     font-family: Playfair;
     font-size:60px;
-    color: #E27F54;
+    color: #048256;
     text-align: center;
     bottom: 0px;
 
@@ -313,7 +320,6 @@ nav{
 #icecream{
     max-width: 100px;
     float: left;
-    display: inline-block;
     right: 10px;
     padding-left: auto;
     padding-right: auto;
@@ -321,6 +327,6 @@ nav{
     /*  */
 footer{
     padding: 3px;
-  background-color: #DAA472;
-  color: white;
+  background-color: #ffeaea;
+  color: #5A575A;
 }
