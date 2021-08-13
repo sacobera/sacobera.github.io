@@ -265,7 +265,7 @@ nav{
 /* CONTACT */
 
 .contact{
-    padding-top: 5%;
+    padding-top: 1%;
     min-height: 10vh;
     width: 100%;
     background-position: center;
@@ -274,10 +274,12 @@ nav{
 }
 
 #contact-id{
-        font-family: Playfair;
-        font-size:60px;
-        color: #E27F54;
-        text-align: center;
+    font-family: Playfair;
+    font-size:60px;
+    color: #E27F54;
+    text-align: center;
+    bottom: 0px;
+
 }
 
 #linkedin{
@@ -296,4 +298,29 @@ nav{
     align-items: center;
     left: 45%;
     justify-content: space-between;
+    padding-bottom: 12px;
+    
+}
+
+#love{
+    padding-top: 20px;
+    padding-left: 20px;
+    background: transparent;
+    text-align: center;
+    display: inline-flexbox
+}
+
+#icecream{
+    max-width: 100px;
+    float: left;
+    display: inline-block;
+    right: 10px;
+    padding-left: auto;
+    padding-right: auto;
+}
+    /*  */
+footer{
+    padding: 3px;
+  background-color: #DAA472;
+  color: white;
 }
